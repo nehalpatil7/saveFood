@@ -26,7 +26,7 @@ The inspiration behind our Food Waste Reduction App stems from two critical issu
 7. Run command
    1. pymon __init__.py
 OR
-   2. python3 __init__.py
+   1. python3 __init__.py
 OR
    1. export FLASK_APP = __init__.py
    2. export FLASK_ENV = "development"
