@@ -16,19 +16,19 @@ The inspiration behind our Food Waste Reduction App stems from two critical issu
 ### Running the application
 1. Navigate to backend directory
 2. Run commands
-   i. pip install Flask
-   ii. pip install flask_cors
-   iii. pip install pymysql
-   iv. pip install pymon
+   1. pip install Flask
+   2. pip install flask_cors
+   3. pip install pymysql
+   4. pip install pymon
 4. Install MySQL on your local machine
 5. Make sure MySQL is running; Create necessary databases and tables; FoodInventory(id, foodName, quantity, expiry_date, address)
 6. Update DB connection details in __init__.py file
 7. Run command
-   i. pymon __init__.py
+   1. pymon __init__.py
    OR
-   i. python3 __init__.py
+   2. python3 __init__.py
    OR
-   i. export FLASK_APP = __init__.py
-   ii. export FLASK_ENV = "development"
-   iii. flask run
+   1. export FLASK_APP = __init__.py
+   2. export FLASK_ENV = "development"
+   3. flask run
 9. Navigate to the link displayed on terminal after the backend server starts
